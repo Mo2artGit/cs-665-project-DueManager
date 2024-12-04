@@ -161,6 +161,9 @@ public class DueManagerApp {
             System.out.println("Title: " + due.getTitle());
             System.out.println("Course: " + due.getCourse());
             System.out.println("Due Date: " + due.getFormattedDueDate());
+            if (due.getLocation() != null && !due.getLocation().isEmpty()) {
+                System.out.println("Location: " + due.getLocation());
+            }
             if (due.getNotes() != null && !due.getNotes().isEmpty()) {
                 System.out.println("Notes: " + due.getNotes());
             }
