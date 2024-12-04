@@ -1,3 +1,5 @@
 target
 .idea/
 JavaProjectTemplate.iml
+config.properties
+dues.json
