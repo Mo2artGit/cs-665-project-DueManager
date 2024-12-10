@@ -15,6 +15,15 @@ The project demonstrates the implementation of several software design patterns 
 
 The application integrates with the OpenRouter AI API to parse natural language inputs, making it more user-friendly while maintaining robust data management capabilities.
 
+## Assumptions
+The program runs assuming the API works and not in maintenance/exceed rate time, etc. The default API model is meta-llama/llama-3.2-90b-vision-instruct:free.
+If any reason the API is not working, try other APIs from link: https://openrouter.ai/models?max_price=0&q=llama
+
+Suggest other API that could work with the project, edit line 111 in file OpenRouterClient.java to any of the following:
+- meta-llama/llama-3.1-405b-instruct:free
+- meta-llama/llama-3.1-70b-instruct:free
+- meta-llama/llama-3.2-3b-instruct:free
+
 # GitHub Repository Link:
 https://github.com/Mo2artGit/cs-665-project-DueManager
 
